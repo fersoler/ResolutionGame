@@ -1,0 +1,64 @@
+body {
+    color: black;
+    background-color: white;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #ffffff;
+    font-family: verdana, helvetica, arial, sans-serif;
+}
+
+a {
+    color: rgb(0,102,204);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+  
+.topOfPage {
+    color: rgb(0,102,204);
+    background-color: transparent;
+    font-size: 91%;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 3ex 1ex 0 0;
+    padding: 0;float: right;
+}
+
+.noclases {
+    background-color: #c0c0c0;
+}
+
+.exam {
+    background-color: #ffff00;
+}
+
+dl {
+    margin: 1em 1ex 2em 1ex;
+    padding: 0;
+}
+
+dt {
+    font-weight: bold;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+dd {
+    margin: 0 0 2em 2em;
+    padding: 0;
+}
+
+div.shadow {
+ float:left;
+ background: url(dropshadow.gif) no-repeat bottom right;
+ margin: 10px 10px 10px 10px;
+}
+
+div.shadow img {
+  position: relative;
+  display: block;
+  margin: -3px 6px 6px -3px;
+}
